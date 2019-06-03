@@ -5,5 +5,11 @@
   "main": "webapp/index.html",
   "repository": "https://github.com/grknylmz/ui5-template.git",
   "author": "Gurkan Yilmaz",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync start -s \"webapp/\" -f . --no-notify",
+    "prod": "browser-sync start -s \"dist/\" -f . --no-notify",
+    "build": "ui5 build",
+    "deploy": "yarn build && yarn prod"
+  }
 }

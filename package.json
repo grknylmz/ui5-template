@@ -1,0 +1,9 @@
+{
+  "name": "ui5-template",
+  "version": "1.0.0",
+  "description": "Template for UI5 apps",
+  "main": "webapp/index.html",
+  "repository": "https://github.com/grknylmz/ui5-template.git",
+  "author": "Gurkan Yilmaz",
+  "license": "MIT"
+}
